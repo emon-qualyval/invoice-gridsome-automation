@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0",
+    "vue2-datepicker": "^3.10.4",
+    "vuejs-datepicker": "^1.6.2",
     "vuetify": "^2.6.4"
   },
   "devDependencies": {

@@ -141,6 +141,16 @@ background: none;
     margin-left: 15px;
 
   }
+  .invoiceInformation .mx-input-wrapper input{
+    background-color: #003eb8;
+    color: white !important;
+  }
+  .invoiceInformation .mx-icon-clear{
+    color: white !important;
+  }
+  .invoiceInformation .mx-input-wrapper .mx-icon-calendar{
+    display:none;
+  }
   .invoiceInformation .theme--light.v-text-field > .v-input__control > .v-input__slot:before{
     background-color: white !important;
   }
