@@ -1,5 +1,7 @@
 <template>
-  <v-row no-gutters class="v-application">
+  <div class="">
+    <Menu/>
+    <v-row no-gutters class="v-application">
     <v-col cols="12" md="8">
       <div class="ml-5 mt-5 mb-5 pt-5 pb-5 white leftSide">
         <v-row no-gutters>
@@ -220,16 +222,19 @@
       <RightSide />
     </v-col>
   </v-row>
+  </div>
 </template>
 <script>
 import "../components/css/style.css";
 import RightSide from '../components/RideSide.vue'
+import Menu from '../layouts/Menu.vue'
 export default {
   metaInfo: {
     title: "Invoice",
   },
   components:{
-    RightSide
+    RightSide,
+    Menu
   },
   data: () => ({
     rules: [(value) => value != "" || "Required."],

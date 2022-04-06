@@ -1,3 +1,15 @@
+.headerMain{
+  padding:0;
+}
+.headerMain .header{
+  display: flex;
+  margin: auto;
+}
+.headerMain .right{
+  display:flex;
+  justify-content: end;
+  align-items: center;
+}
 .login>h1{
   text-align: center;
 }
